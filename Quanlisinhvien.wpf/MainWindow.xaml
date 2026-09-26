@@ -8,57 +8,47 @@
         Height="450"
         Title="MainWindow"
         mc:Ignorable="d">
-	<Grid>
-		<TextBox Width="270"
-             Height="55"
-             Margin="0,42,250,0"
-             HorizontalAlignment="Right"
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="29*"/>
+            <ColumnDefinition Width="11*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Width="140"
+             Height="20"
+            
+             HorizontalAlignment="Left"
              VerticalAlignment="Top"
-             VerticalContentAlignment="Center"
              Text="THÔNG TIN SINH VIÊN"
-             TextAlignment="Center"
-             TextWrapping="WrapWithOverflow"
-             Grid.Column="0"
-             Grid.Row="0" />
-		<Label Width="396"
+             TextAlignment="Center" Margin="330,52,0,0" />
+        <TextBox Width="396"
            Height="24"
-           Margin="252,141,0,0"
-           HorizontalAlignment="Left"
            VerticalAlignment="Top"
            Background="LightGray"
-           BorderBrush="Black"
-           Foreground="Red"
-           Grid.Column="0"
-           Grid.Row="0" Content="adasdda&#xD;&#xA;" />
-		<TextBox Width="89"
+           Foreground="Red" 
+           Margin="252,141,152,0" Grid.ColumnSpan="2" TextChanged="TextBox_TextChanged_5" 
+            />
+        <TextBlock Width="94"
              Margin="158,141,0,269"
              HorizontalAlignment="Left"
-             VerticalContentAlignment="Bottom"
-             BorderBrush="{x:Null}"
              Text="Họ tên sinh viên: "
              TextAlignment="Left"
-             Grid.Column="0"
-             Grid.Row="0" TextChanged="TextBox_TextChanged" />
-		<Label Width="396"
+              />
+        <TextBox Width="396"
            Height="24"
            Margin="252,180,0,0"
            HorizontalAlignment="Left"
            VerticalAlignment="Top"
            Background="LightGray"
            BorderBrush="Black"
-           Foreground="Red"
-           Grid.Column="0"
-           Grid.Row="0" Content="adadadsda" />
-		<TextBox Width="89"
+           Foreground="Red" Grid.ColumnSpan="2"
+           />
+        <TextBlock Width="89"
              Margin="158,183,0,233"
              HorizontalAlignment="Left"
-             VerticalContentAlignment="Bottom"
-             BorderBrush="{x:Null}"
              Text="Mã số sinh viên:"
              TextAlignment="Left"
-             Grid.Column="0"
-             Grid.Row="0" />
-		<Label Width="396"
+             />
+        <TextBox Width="396"
            Height="24"
            Margin="252,220,0,0"
            HorizontalAlignment="Left"
@@ -67,16 +57,14 @@
            BorderBrush="Black"
            Foreground="Red"
            Grid.Column="0"
-           Grid.Row="0" Content="asdadassadsadasda" />
-		<TextBox Width="44"
+           Grid.Row="0" Grid.ColumnSpan="2" />
+        <TextBlock Width="44"
              Margin="158,217,0,196"
              HorizontalAlignment="Left"
-             VerticalContentAlignment="Bottom"
-             BorderBrush="{x:Null}"
              RenderTransformOrigin="0.5,0.5"
              Text="Trường:"
              TextAlignment="Left"
              Grid.Column="0"
              Grid.Row="0" />
-	</Grid>
+    </Grid>
 </Window>
