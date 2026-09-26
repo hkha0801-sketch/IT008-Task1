@@ -37,11 +37,15 @@ public partial class MainWindow : Window
     }
 
 
-    private void submit_Click(object sender, RoutedEventArgs e)
+    private void Submit_Click(object sender, RoutedEventArgs e)
     {
         try
         {
-            string hoten = hoten;
+            string HoVaTen= hoten.Text;
+            string MSSV = mssv.Text;
+            string Truong = truong.Text;
+
+            Console.WriteLine(HoVaTen + " " + MSSV + " " + Truong);
         }
         catch (Exception ex)
         {
