@@ -36,18 +36,18 @@ public partial class MainWindow : Window
 
     }
 
-    private void TextBox_TextChanged_3(object sender, TextChangedEventArgs e)
-    {
 
+    private void submit_Click(object sender, RoutedEventArgs e)
+    {
+        try
+        {
+            string hoten = hoten;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.ToString());
+        }
+            
     }
 
-    private void TextBox_TextChanged_4(object sender, TextChangedEventArgs e)
-    {
-
-    }
-
-    private void TextBox_TextChanged_5(object sender, TextChangedEventArgs e)
-    {
-
-    }
 }

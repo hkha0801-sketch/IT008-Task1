@@ -10,22 +10,22 @@
         mc:Ignorable="d">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="29*"/>
-            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
         <TextBlock Width="140"
              Height="20"
-            
-             HorizontalAlignment="Left"
+             HorizontalAlignment="Center"
              VerticalAlignment="Top"
              Text="THÔNG TIN SINH VIÊN"
-             TextAlignment="Center" Margin="330,52,0,0" />
-        <TextBox Width="396"
+             TextAlignment="Center" Margin="0,52,0,0" />
+        <TextBox x:Name="hoten"
            Height="24"
            VerticalAlignment="Top"
            Background="LightGray"
            Foreground="Red" 
-           Margin="252,141,152,0" Grid.ColumnSpan="2" TextChanged="TextBox_TextChanged_5" 
+           BorderBrush="Black"
+           Margin="252,141,62,0" 
             />
         <TextBlock Width="94"
              Margin="158,141,0,269"
@@ -33,14 +33,14 @@
              Text="Họ tên sinh viên: "
              TextAlignment="Left"
               />
-        <TextBox Width="396"
+        <TextBox x:Name="mssv" Width="396"
            Height="24"
            Margin="252,180,0,0"
            HorizontalAlignment="Left"
            VerticalAlignment="Top"
            Background="LightGray"
            BorderBrush="Black"
-           Foreground="Red" Grid.ColumnSpan="2"
+           Foreground="Red"
            />
         <TextBlock Width="89"
              Margin="158,183,0,233"
@@ -57,7 +57,7 @@
            BorderBrush="Black"
            Foreground="Red"
            Grid.Column="0"
-           Grid.Row="0" Grid.ColumnSpan="2" />
+           Grid.Row="0" />
         <TextBlock Width="44"
              Margin="158,217,0,196"
              HorizontalAlignment="Left"
@@ -66,5 +66,6 @@
              TextAlignment="Left"
              Grid.Column="0"
              Grid.Row="0" />
+        <Button x:Name="submit" HorizontalAlignment="Center" VerticalAlignment="Top" VerticalContentAlignment="Center" Content="Submit" FontSize="10" Width="68" Height="20" Margin="0,272,0,0" Click="submit_Click"/>
     </Grid>
 </Window>
