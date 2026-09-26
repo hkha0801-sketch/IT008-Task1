@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UIT\\PROJECTS\\UIT\\IT008-Task1\\Quanlisinhvien.wpf\\Quanlisinhvien.wpf.csproj": {}
+    "d:\\UIT\\PROJECTS\\UIT\\IT008-Task1\\Quanlisinhvien.wpf\\Quanlisinhvien.wpf.csproj": {}
   },
   "projects": {
-    "D:\\UIT\\PROJECTS\\UIT\\IT008-Task1\\Quanlisinhvien.wpf\\Quanlisinhvien.wpf.csproj": {
+    "d:\\UIT\\PROJECTS\\UIT\\IT008-Task1\\Quanlisinhvien.wpf\\Quanlisinhvien.wpf.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UIT\\PROJECTS\\UIT\\IT008-Task1\\Quanlisinhvien.wpf\\Quanlisinhvien.wpf.csproj",
+        "projectUniqueName": "d:\\UIT\\PROJECTS\\UIT\\IT008-Task1\\Quanlisinhvien.wpf\\Quanlisinhvien.wpf.csproj",
         "projectName": "Quanlisinhvien.wpf",
-        "projectPath": "D:\\UIT\\PROJECTS\\UIT\\IT008-Task1\\Quanlisinhvien.wpf\\Quanlisinhvien.wpf.csproj",
+        "projectPath": "d:\\UIT\\PROJECTS\\UIT\\IT008-Task1\\Quanlisinhvien.wpf\\Quanlisinhvien.wpf.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\UIT\\PROJECTS\\UIT\\IT008-Task1\\Quanlisinhvien.wpf\\obj\\",
+        "outputPath": "d:\\UIT\\PROJECTS\\UIT\\IT008-Task1\\Quanlisinhvien.wpf\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
