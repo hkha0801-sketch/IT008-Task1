@@ -18,20 +18,21 @@
              HorizontalAlignment="Center"
              VerticalAlignment="Top"
              Text="THÔNG TIN SINH VIÊN"
-             TextAlignment="Center" Margin="0,52,0,0" />
+             TextAlignment="left" Margin="0,52,0,0" />
         <TextBox x:Name="hoten"
            Height="24"
            VerticalAlignment="Top"
            Background="LightGray"
            Foreground="Red" 
            BorderBrush="Black"
-           Margin="252,141,62,0" 
+           Margin="252,141,152,0" 
             />
-        <TextBlock Width="94"
-             Margin="158,141,0,269"
+        <TextBlock x:Name="lbHoTen" Width="94"
+             Margin="158,141,0,0"
              HorizontalAlignment="Left"
+             VerticalAlignment="Top"
+             TextAlignment="left"
              Text="Họ tên sinh viên: "
-             TextAlignment="Left"
               />
         <TextBox x:Name="mssv" Width="396"
            Height="24"
@@ -42,13 +43,14 @@
            BorderBrush="Black"
            Foreground="Red"
            />
-        <TextBlock Width="89"
-             Margin="158,183,0,233"
+        <TextBlock x:Name="lbmssv" Width="89"
+             Margin="158,183,0,0"
              HorizontalAlignment="Left"
+             VerticalAlignment="Top"
              Text="Mã số sinh viên:"
-             TextAlignment="Left"
+             TextAlignment="Right"
              />
-        <TextBox Width="396"
+        <TextBox x:Name="truong" Width="396"
            Height="24"
            Margin="252,220,0,0"
            HorizontalAlignment="Left"
@@ -58,14 +60,13 @@
            Foreground="Red"
            Grid.Column="0"
            Grid.Row="0" />
-        <TextBlock Width="44"
-             Margin="158,217,0,196"
+        <TextBlock x:Name="lbtruong" Width="89"
+             Margin="158,217,0,0"
              HorizontalAlignment="Left"
-             RenderTransformOrigin="0.5,0.5"
+             VerticalAlignment="Top"
+             TextAlignment="Right"
              Text="Trường:"
-             TextAlignment="Left"
-             Grid.Column="0"
-             Grid.Row="0" />
-        <Button x:Name="submit" HorizontalAlignment="Center" VerticalAlignment="Top" VerticalContentAlignment="Center" Content="Submit" FontSize="10" Width="68" Height="20" Margin="0,272,0,0" Click="submit_Click"/>
+             />
+        <Button x:Name="Submit" HorizontalAlignment="Center" VerticalAlignment="Top" VerticalContentAlignment="Center" Content="Submit" FontSize="10" Width="68" Height="20" Margin="0,272,0,0" Click="Submit_Click"/>
     </Grid>
 </Window>
